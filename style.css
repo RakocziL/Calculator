@@ -41,4 +41,22 @@ h1{
     background-color: lightgoldenrodyellow;
     height: 50px;
     width: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 24px;
+    color: lightcoral;
+
+    border-radius: 20px;
+}
+.button:hover{
+    transform: translateY(-0.25em);
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+}
+.button:active{
+    background-color:lightcoral;
+    color: lightgoldenrodyellow;
+    transform: scale(1.4);
 }
