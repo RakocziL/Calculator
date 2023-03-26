@@ -9,6 +9,8 @@ h1{
     font-size: 48px;
 }
 
+
+
 .calculator{
     width:300px;
     height: 450px;
@@ -21,12 +23,44 @@ h1{
     flex-direction: column;
     gap: 2px;
 }
+
+
+
+
 .display{
     background-color:aliceblue;
     height: 75px;
     width:275;
     margin: 5px;
 }
+#formula{
+   
+    height:35px;
+    width:275;
+    margin-right: 5px;
+    display:flex;
+    justify-content: right;
+    align-items:center;
+    
+    color:gray;
+    font-size:18px;
+}
+#result{
+    
+    height: 40px;
+    width: 275;
+    margin-right: 5px;
+    display:flex;
+    justify-content: right;
+    align-items:center;
+
+    color:darkslategray;
+    font-size:22px;
+}
+
+
+
+
 .buttons{
     background-color: lightcoral;
     height: 75px;
@@ -53,10 +87,10 @@ h1{
 }
 .button:hover{
     transform: translateY(-0.25em);
-    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
 }
 .button:active{
-    background-color:lightcoral;
-    color: lightgoldenrodyellow;
+    /*background-color:lightcoral;
+    color: lightgoldenrodyellow;*/
+    
     transform: scale(1.4);
 }
